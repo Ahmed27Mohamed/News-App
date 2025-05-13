@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">News App</string>
+    <string name="sub_about_app">About App</string>
+    <string name="about" tools:ignore="MissingTranslation">News Today is your daily source for the latest updates from around the world. We bring you trusted news articles from multiple sources with a smooth and easy-to-use interface.
+
+🔹 Key Features:
+- Get the latest local and international news
+- Save articles to read later
+- Smart search for topics you care about
+- Dark mode support for comfortable reading
+- Available in both Arabic and English
+
+This app is designed to offer a clean, fast, and personalized news reading experience.
+
+📂 View the source code on GitHub:
+https://github.com/Ahmed27Mohamed/News-App
+
+Developed with passion to keep you informed every day.
+
+Made with ❤️ by Ahmed Mohamed.</string>
+    <string name="closeApp">close the application?</string>
+    <string name="messageCloseApp">Are you sure you want to edit the app?</string>
+    <string name="okay">ok</string>
+    <string name="no">no</string>
+    <string name="close">close</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="favorite">Favorite</string>
+    <string name="settings">Settings</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="start">Start</string>
+    <string name="welcome_to_our_app">Welcome to our app!</string>
+    <string name="simple_and_easy_to_use_design">Simple and easy to use design</string>
+    <string name="ready_to_go">Ready to go?</string>
+    <string name="let_s_get_started_now_everything_you_need_is_in_one_place_click_get_started_and_enjoy_the_service">Let\'s get started now! Everything you need is in one place. Click \"Get Started\" and enjoy the service.</string>
+    <string name="we_ve_carefully_designed_the_interface_to_be_convenient_simple_and_seamless_every_step_of_your_experience_with_us">We\'ve carefully designed the interface to be convenient, simple, and seamless every step of your experience with us.</string>
+    <string name="get_ready_to_discover_a_unique_and_distinctive_experience_that_helps_you_access_what_you_need_easily_and_quickly">Get ready to discover a unique and distinctive experience that helps you access what you need easily and quickly.</string>
+    <string name="search_here">Search Here ....</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="language_english">Language English</string>
+    <string name="language_arabic">Language Arabic</string>
+    <string name="made_by_ahmed_mohamed">Made by Ahmed Mohamed</string>
+</resources>

@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_marginBottom="@dimen/_8sdp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:background="@drawable/card_shape"
+        android:elevation="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_toEndOf="@+id/starIcon"
+                android:layout_toStartOf="@+id/newsImage"
+                android:fontFamily="@font/poppinsmedium"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="Article Title"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/descriptionTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/titleTextView"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_toEndOf="@+id/starIcon"
+                android:layout_toStartOf="@+id/newsImage"
+                android:fontFamily="@font/poppinsregular"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="Article Description"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/starIcon"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:contentDescription="Save to favorites"
+                android:padding="@dimen/_4sdp"
+                android:src="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/newsImage"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="@dimen/_4sdp"
+                android:contentDescription="News Image"
+                app:srcCompat="@drawable/background" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
