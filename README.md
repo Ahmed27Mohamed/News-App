@@ -25,3 +25,5 @@
 - 🌙 **Dark Mode Support**: Native dark mode integration with theme switching.
 - 🌍 **Multi-Language Support**: English and Arabic languages with dynamic switching.
 - 🌐 **API Used**: This app uses [NewsAPI](https://newsapi.org/) for fetching the latest news.
+
+## **📌 Available on [Amazon Store](https://www.amazon.com/dp/B0FLK93WN7?dib=eyJ2IjoiMSJ9.JYMHEm9cHeT90Lvz1ktdnxwNf4UvRM7GV-23MlKA5Vx36pGTtqm9_SzuRAhq4ywQPxlWWpRsxNXINk9uublCgyI_C_jj7MjE3C1xZp1d1NY.BrO_8m3He5q1GGMmopUJIvAh26443G0Xn5dETf8Kd8Q&dib_tag=se&qid=1754622354&refinements=p_4%3AAhmed+Mohamed&s=mobile-apps&search-type=ss&sr=1-5)**  
